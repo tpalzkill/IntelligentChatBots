@@ -19,26 +19,16 @@ Build and Integrate Instant App and Web Channel
 
 ### **Step 1**: Adding an Instant App feature to the Skill
 
-
-
-![D:\\Workshop\_Bot\\BotsLab2\\Capture1.PNG](images/200/image1.png)
-
-Once you click on the Link button, you will get a form like below to fill:
-
-![](images/200/image2.png)
-
 **The Instant App Builder**
 
 
-You can build the Instant Apps using the Instant App Builder, which you access by clicking Instant Apps in the Skills landing page.
+
 
 ![D:\\Workshop\_Bot\\BotsLab2\\Capture2.PNG](images/200/image3.png)
-Instant apps are made up of sets of panes, which gets displayed one at a time. You can populate these panes with various elements that can display charts or images and collect customer data using widgets like checkboxes, radio buttons, and file upload functions.
-![D:\\Workshop\_Bot\\BotsLab2\\Capture3.PNG](images/200/image4.png)
 
-To get you started, you can customize the templates that display in the landing page. You can also start from scratch by clicking the **New Instant App** tile. ![This is an image of the instant app landing page.](images/200/11.png)
+You can build the Instant Apps using the Instant App Builder, which you access by clicking Instant Apps in the Skills landing page.
 
-**Creating an Instant App for feedback**
+![This is an image of the instant app landing page.](images/200/11.png)
 
 Select “Add Instant App”.
 
@@ -50,43 +40,28 @@ Use a template.
 
 Select the “Customer Survey” template.
 
-#### **App Settings**
-
-App Settings is where you manage general information about your Instant App.
-
-**Name**
-
-The Instant App name is your internal way of identifying the specific Instant App among all your other Instant Apps on main page. The name can include letters, numbers, and special characters. The name is not exposed to the end user, as you can see in the image Internal Description below.
-
-**ID**
-
-The Instant App ID is how you reference the Instant App if you need to call it from somewhere, like from a Bot, an API, or a JavaScript Snippet. When you create a new Instant App, the ID itself is derived from the Instant App name that you enter. The ID cannot contain special characters or spaces. You can edit the ID at any point, but if you do change it, you will need to update any references to the previous ID.
-
-**Icon**
-
-An icon is the image that shows up on the Instant App tile on the main Instant Apps page. You can remove unwanted icons by clicking on the red X on the top right corner. Then, you can drag and drop an icon, add an icon via regular file lookup, or input a URL.
-
-**Internal Description**
-
-The Internal Description is what shows up on the Instant App’s tile on the main Instant Apps page as a reminder of the particular Instant App’s function.
-
-![D:\\Workshop\_Bot\\BotsLab2\\Capture6.PNG](images/200/food.jpeg)
-
-Write Name as “CafeteriaAssistanceBotFeedback” and the same for ID (case-sensitive).  Use an image, you can use the one above by right clicking and choosing "Copy Image Location". Add a description and click save.
 
 ![D:\\Workshop\_Bot\\BotsLab2\\Capture6.PNG](images/200/14.png)
+![D:\\Workshop\_Bot\\BotsLab2\\Capture6.PNG](images/200/food.jpeg)
+
+Write Name as “CafeteriaAssistanceBotFeedback” and the same for ID (case-sensitive).  Use an image, you can use the one above by right clicking and choosing "Copy Image Location", then paste that into the URL field. Add a description and click save.
+
+
 
 **Invite Message and Link**
 
-The Invite Message is a pre-configured message that is sent to customers as an invitation to use the Instant App, and it is the first thing a customer sees.  Include the {link} in the position where you want the Instant App link, and do not change anything else. The message, including the link, cannot exceed 160 characters.
-
-Upload the same picture to the invitation, leaving the other fields as their default values and click save.
-
 ![D:\\Workshop\_Bot\\BotsLab2\\Capture7.PNG](images/200/image8.png)
 
-Before proceeding, don’t forget to click on the save button.
+Upload the same picture to the invitation by clicking the trash icon to remove the current picture and pasting in the photo URL, leaving the other fields as their default values and click save in the top right.
 
-Now add the below lines after in the CafeteriaAssistanceBot lab1 YAML flow like below:
+![D:\\Workshop\_Bot\\BotsLab2\\image33.PNG](images/200/image33.png)
+
+Next navigate to the left hand side of the page and expand "Layout", then select "image1".
+
+![D:\\Workshop\_Bot\\BotsLab2\\image34.PNG](images/200/image34.png)
+
+Change the image by once again choosing the trashcan icon and then pasting in the same URL you have used for the invitation. With this done ensure you click save in the top right. You can now go ahead and close this tab to return to your Skill.
+
 
 **Now add the below YAML code in the flow:**
 
@@ -107,27 +82,23 @@ interactive:
    transitions:
      return: "feedbackDone"
 ```
-
-Follow the below screen for the same:
+Back in the Flow section for your skill, add the above lines after the CafeteriaAssistanceBot YAML you added in Lab 100.
 
 ![D:\\Workshop\_Bot\\BotsLab2\\Capture16.PNG](images/200/image9.png)
 
-Now click “Validate”, “Train” and “Run” button to test the Instant App:
+Follow the above screen for the same.
 
 ![D:\\Workshop\_Bot\\BotsLab2\\Capture17.PNG](images/200/image10.png)
 
-Now click the Link button, and you will be able to see the Feedback page like below:
+Now click “Validate”, “Train” and “Run” button to test the Instant App.
 
 ![](images/200/image11.png)
 
-Now fill the form and click on “Submit Feedback” button:
+Now click the Link button, and you will be able to see the Feedback page like above.
 
 ![D:\\Workshop\_Bot\\BotsLab2\\Capture15.PNG](images/200/image12.png)
 
-Now, if you go back to the Skill you can see the response similar to the one below:
-
-![](images/200/image13.png)
-
+Now fill in the form, you can try different star counts to see the form change, and click on “Submit Feedback” button. When you close the tab the bot will respond with "Thank's for providing your valuable feedback. Have a nice day!", as is designated in the flow.
 
 ### **Step 2**: Integrating the Skill with a web page as a Channel
 
