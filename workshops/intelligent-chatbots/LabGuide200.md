@@ -72,7 +72,7 @@ The Internal Description is what shows up on the Instant App’s tile on the mai
 
 ![D:\\Workshop\_Bot\\BotsLab2\\Capture6.PNG](images/200/food.jpeg)
 
-Write Name as “CafeteriaAssistanceBotFeedback” and the same for ID (case-sensitive).  Use an image, you can download the one above by right clicking and choose save image as. Add a description and click save.
+Write Name as “CafeteriaAssistanceBotFeedback” and the same for ID (case-sensitive).  Use an image, you can use the one above by right-clicking and selecting "Copy Image Location". Add a description and click save.
 
 ![D:\\Workshop\_Bot\\BotsLab2\\Capture6.PNG](images/200/14.png)
 
