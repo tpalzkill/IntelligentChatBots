@@ -57,7 +57,7 @@ Build and Integrate Instant App and Web Channel
 
 ![D:\\Workshop\_Bot\\BotsLab2\\image34.PNG](images/200/image34.png)
 
-Back in the Flow section for your skill, add the below lines after the CafeteriaAssistanceBot YAML you added in Lab 100.
+- Back in the Flow section for your skill, add the below lines after the CafeteriaAssistanceBot YAML you added in Lab 100.
 **Now add the below YAML code in the flow:**
 
 ```
