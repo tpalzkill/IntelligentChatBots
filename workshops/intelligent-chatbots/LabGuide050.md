@@ -11,24 +11,34 @@ In this guided lab you will create a virtual chatbot to facilitate a cafeteria's
 
 ### **Provisioning Oracle Autonomous Digital Assistant in your cloud trial account**
 
-Navigate to [cloud.oracle.com](cloud.oracle.com) and select sign in.
+- Navigate to [cloud.oracle.com](cloud.oracle.com) and select **Sign In**.
 
-![Cloud.oracle.com](images/050/1.png)
+  ![Cloud.oracle.com](images/050/1.png)
 
-Enter your credentials and sign in.
+- Enter your tenancy name and click **Next**.
 
-![Sign in](images/050/2.png)
+  ![Enter Tenancy](images/050/LabGuide050-a9aafe90.png)
 
-Select the hamburger icon in the top left of the page to open the side menu.
+- Enter your credentials and click **Sign In**.
 
-Expand services and select “Autonomous Digital Assistant” from the list.
+  ![Sign in](images/050/2.png)
 
-![Select Autonomous Digital Assistant](images/050/3.png)
+- Open the **Hamburger Icon** in the top left corner.
 
-Select “Create Instance”
+  ![](images/050/LabGuide050-3f2d1ab1.png)
 
-![Create instance](images/050/4.png)
+- Select **My Services Dashboard**.
 
-Name the instance, add a description, select a region and continue to confirmation. Create the instance; it will take a few minutes to provision.
+  ![](images/050/LabGuide050-f82fc0dd.png)
 
-![Instance Details](images/050/5.png)
+- Select the **Hamburger Icon** in the top left of the page to open the side menu. Expand services and select **Digital Assistant** from the list.
+
+  ![Select Autonomous Digital Assistant](images/050/3.png)
+
+- Select **Create Instance**.
+
+  ![Create instance](images/050/4.png)
+
+- Name the instance, add a description, select a region and **Click Next** to confirmation. Create the instance; it will take a few minutes to provision.
+
+  ![Instance Details](images/050/5.png)
