@@ -1,5 +1,3 @@
-Updated: April 11, 2017
-
 Create a Skill in Oracle Autonomous Digital Assistant
 =========================
 
