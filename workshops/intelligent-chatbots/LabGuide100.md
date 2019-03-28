@@ -27,50 +27,65 @@ You can build the Skill, test it, and configure it to run on different messaging
 
 - When our Digital Assistant is finished provisioning select the menu icon and select **Digital Assistant UI**.
 
-![](images/100/5b.png)
+  ![](images/100/5b.png)
 
-- Click the hamburger in the top left to open the side menu. Expand **Development** and select **Skills**. Click **New Skill**.
+- Click the hamburger in the top left to open the side menu. Expand **Development** and select **Skills**.
 
-![D:\\Workshop\_Bot\\image1.PNG](images/100/5c.png)
+  ![D:\\Workshop\_Bot\\image1.PNG](images/100/5c.png)
+
+- Click **New Skill**.
+
+  ![](images/100/LabGuide100-cad0d32f.png)
 
 - Give the skill a name such as **CafeteriaAssistance_Bot**, version it and add a brief description. Click create and your bot is live.
 
-![](images/100/6.png)
+  ![](images/100/6.png)
 
 - You are taken to the home page for your Skill. Here on the left, you can see a list of icons you can use to navigate to your **Intents, Entities, Flow, Resource Bundles, Q&A, Components, Settings and Quality**.
 
-![D:\\Workshop\_Bot\\image2.PNG](images/100/image5.png)
+  ![D:\\Workshop\_Bot\\image2.PNG](images/100/image5.png)
 
 ### **Step 2**: Add an Intent, Entity for show menu
 
-- From the homepage of your Skill, click the **Intent** icon present on left-side navigation bar and then click the green **Intent** button.
+- From the homepage of your Skill, click the **Intent** icon present on left-side navigation bar and then click the green **+ Intent** button.
 
-![](images/100/image6.png)
+  ![](images/100/image6.png)
 
-- This Intent will be used to show the cafeteria menu. Enter **ShowMenu** as the Intent name, and then provide a description. These values are automatically saved, so you do not need to explicitly save them. As you create artifacts, you may notice a message in the lower right corner that your work has been saved.
+- This Intent will be used to show the cafeteria menu. Enter **ShowMenu** as the Intent name, and then provide a description. _These values are automatically saved, so you do not need to explicitly save them. As you create artifacts, you may notice a message in the lower right corner that your work has been saved._
 
-![D:\\Workshop\_Bot\\Image5.PNG](images/100/7.png)
+  ![D:\\Workshop\_Bot\\Image5.PNG](images/100/7.png)
 
-- Now that you have an intent, to express what a show menu is. In the Examples area add the following text: **show menu**, followed by a return.
+- Now that you have an intent, to express what a show menu is. In the examples area add the following text:
+  ```
+  show menu
+  ```
 
-![D:\\Workshop\_Bot\\image6.PNG](images/100/7b.png)
+  ![](images/100/LabGuide100-48471f81.png)
 
-- Add another example utterance: **"what do you have?"**
+- Press **Enter** to save your first Utterance. The text will disappear.
 
-- Include the list of example utterances below to your intent, each followed by a return. Notice that the examples do not need to be in the form of a question, they can be a statement as well.
-    -   **hi**
-    -   **Hi There**
-    -   **menu please**
-    -   **show menu**
-    -   **What do you have?**
-    -   **What food do you have**
+- Include the list of example utterances below to your intent, each followed by a return.
 
+  ```
+  what do you have?
+  hi
+  Hi There
+  menu please
+  What do you have?
+  What food do you have
+  ```
+
+  _Notice that the examples do not need to be in the form of a question, they can be a statement as well._
+
+- Your utterances will appear below as you create them.
+
+  ![](images/100/LabGuide100-e2bc7af8.png)
 
 ### **Step 3**: Add OrderFood intent:
 
 ![](images/100/image10.png)
 
-- Create another intent by clicking **+Intent** near the top left. Call this one "OrderFood" and use the below utterances.  
+- Create another intent by clicking **+ Intent** near the top left. Call this one "OrderFood" and use the below utterances.  
 
     *   **May I have some food**
     *   **Food please**
