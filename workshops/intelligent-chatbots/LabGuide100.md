@@ -2,7 +2,7 @@ Create a Skill in Oracle Autonomous Digital Assistant
 =========================
 
 ## **Introduction**
-This is the first of several labs that are part of the Oracle Public Cloud Digital Assistant ChatBot workshop. This workshop will walk you through the process of creating a chatbot interface that can be intergrated in any number of ways using the Oracle Public Cloud.
+This is the first of several labs that are part of the Oracle Public Cloud Digital Assistant ChatBot workshop. This workshop will walk you through the process of creating a chatbot interface that can be integrated in any number of ways using the Oracle Public Cloud.
 
 In Oracle's Autonomous Digital Assistant chatbots are called Skills. You can think of your Skill as a virtual personal assistant, one that completes a task through a combination of text messages and simple UI elements like select lists. While a Skill can open your enterprise to messaging, it's not a replacement for a mobile or web app. It instead provides a new channel to existing applications.
 
@@ -55,16 +55,17 @@ You can build the Skill, test it, and configure it to run on different messaging
 
   ![D:\\Workshop\_Bot\\Image5.PNG](images/100/7.png)
 
-- Now that you have an intent, to express what a show menu is. In the examples area add the following text:
+- Now that you have an intent we will enter our first Utterance. In the examples area add the following text, then press **Enter**:
+
   ```
   show menu
   ```
 
   ![](images/100/LabGuide100-48471f81.png)
 
-- Press **Enter** to save your first Utterance. The text will disappear.
+_Note: The text will disappear as it saves._
 
-- Include the list of example utterances below to your intent, each followed by a return.
+- Enter the list of example utterances below one at a time. Press **Enter** after each entry.
 
   ```
   what do you have?
@@ -83,17 +84,25 @@ You can build the Skill, test it, and configure it to run on different messaging
 
 ### **Step 3**: Add OrderFood intent:
 
+- Create another intent by clicking **+ Intent** near the top left. Call this one:
+
+  ```
+  OrderFood
+  ```
+
 ![](images/100/image10.png)
 
-- Create another intent by clicking **+ Intent** near the top left. Call this one "OrderFood" and use the below utterances.  
+- Then create the following utterances one at a time.  
 
-    *   **May I have some food**
-    *   **Food please**
-    *   **I want food**
-    *   **order food**
-<!-- TODO: are utterances case sensitive? if not, remove #5 -->
+  ```
+    May I have some food
+    Food please
+    I want food
+    order food
+  ```
 
-<!-- <a name="step-4-add-an-intent-entity-for-order-beverage"></a> -->
+  ![](images/100/LabGuide100-0a38d98f.png)
+
 ### **Step 4**: Add OrderBeverages intent:
 
 ![](images/100/9.png)
