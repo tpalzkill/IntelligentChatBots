@@ -24,38 +24,38 @@ Build and Integrate Instant App and Web Channel
 
 - You can build the Instant Apps using the Instant App Builder, which you access by clicking Instant Apps in the Skills landing page.
 
-![D:\\Workshop\_Bot\\BotsLab2\\Capture2.PNG](images/200/image3.png)
+  ![D:\\Workshop\_Bot\\BotsLab2\\Capture2.PNG](images/200/image3.png)
 
 - Select “Add Instant App”.
 
-![This is an image of the instant app landing page.](images/200/11.png)
+  ![This is an image of the instant app landing page.](images/200/11.png)
 
 - Use a template.
 
-#### ![D:\\Workshop\_Bot\\BotsLab2\\Capture4.PNG](images/200/12.png)
+  ![D:\\Workshop\_Bot\\BotsLab2\\Capture4.PNG](images/200/12.png)
 
 - Select the “Customer Survey” template.
 
-#### ![D:\\Workshop\_Bot\\BotsLab2\\Capture4.PNG](images/200/13.png)
+  ![D:\\Workshop\_Bot\\BotsLab2\\Capture4.PNG](images/200/13.png)
 
 - Write Name as “CafeteriaAssistanceBotFeedback” and the same for ID (case-sensitive).  Use an image, you can use the one below by right clicking and choosing "Copy Image Location", then paste that into the URL field. Add a description and click save.
 
-![D:\\Workshop\_Bot\\BotsLab2\\Capture6.PNG](images/200/14.png)
-![D:\\Workshop\_Bot\\BotsLab2\\Capture6.PNG](images/200/food.jpeg)
+  ![D:\\Workshop\_Bot\\BotsLab2\\Capture6.PNG](images/200/14.png)
+  ![D:\\Workshop\_Bot\\BotsLab2\\Capture6.PNG](images/200/food.jpeg)
 
 
 **Invite Message and Link**
 - Upload the same picture to the invitation by clicking the trash icon to remove the current picture and pasting in the photo URL, leaving the other fields as their default values and click save in the top right.
 
-![D:\\Workshop\_Bot\\BotsLab2\\Capture7.PNG](images/200/image8.png)
+  ![D:\\Workshop\_Bot\\BotsLab2\\Capture7.PNG](images/200/image8.png)
 
 - Next navigate to the left hand side of the page and expand "Layout", then select "image1".
 
-![D:\\Workshop\_Bot\\BotsLab2\\image33.PNG](images/200/image33.png)
+  ![D:\\Workshop\_Bot\\BotsLab2\\image33.PNG](images/200/image33.png)
 
 - Change the image by once again choosing the trashcan icon and then pasting in the same URL you have used for the invitation. With this done ensure you click save in the top right. You can now go ahead and close this tab to return to your Skill.
 
-![D:\\Workshop\_Bot\\BotsLab2\\image34.PNG](images/200/image34.png)
+  ![D:\\Workshop\_Bot\\BotsLab2\\image34.PNG](images/200/image34.png)
 
 - Back in the Flow section for your skill, add the below lines after the CafeteriaAssistanceBot YAML you added in Lab 100.
 **Now add the below YAML code in the flow:**
@@ -79,15 +79,14 @@ interactive:
 ```
 - Follow the below screen for the same.
 
-![D:\\Workshop\_Bot\\BotsLab2\\Capture16.PNG](images/200/image9.png)
+  ![D:\\Workshop\_Bot\\BotsLab2\\Capture16.PNG](images/200/image9.png)
 
 - Now click “Validate”, “Train” and “Run” button to test the Instant App. If any problems arise in validation check your flow for indentation issues in the lines you just pasted. Then click the Link button, and you will be able to see the Feedback page.
 
-![D:\\Workshop\_Bot\\BotsLab2\\Capture17.PNG](images/200/image10.png)
+  ![D:\\Workshop\_Bot\\BotsLab2\\Capture17.PNG](images/200/image10.png)
 
 - Now fill in the form, you can try different star counts to see the form change, and click on “Submit Feedback” button. When you close the tab the bot will respond with "Thank's for providing your valuable feedback. Have a nice day!", as is designated in the flow.
-![](images/200/image11.png)
-![D:\\Workshop\_Bot\\BotsLab2\\Capture15.PNG](images/200/image12.png)
+  ![](images/200/image11.png) ![D:\\Workshop\_Bot\\BotsLab2\\Capture15.PNG](images/200/image12.png)
 
 
 
@@ -102,15 +101,15 @@ Autonomous Digital Assistant provides channels for Facebook Messenger, Web, Andr
 
 - Return to the Autonomous Digital Assistant Console. If the side menu is not open select the hamburger icon from the top right of the page, expand “Development” and select “Channels”. Ensure that “Users” is selected from the options and select “+ Channel”
 
-![D:\\Workshop\_Bot\\image2.PNG](images/200/15.png)
+  ![D:\\Workshop\_Bot\\image2.PNG](images/200/15.png)
 
 - Name the channel "Web", write a brief description and choose "Channel Type” **Web**. Click **Create**.
 
-![D:\\Workshop\_Bot\\BotsLab2\\web4.PNG](images/200/16.png)
+  ![D:\\Workshop\_Bot\\BotsLab2\\web4.PNG](images/200/16.png)
 
 - Route the Channel to your new CafeteriaAssistanceBot, enable the channel and copy the App ID.
 
-![D:\\Workshop\_Bot\\BotsLab2\\web5.PNG](images/200/17.png)
+  ![D:\\Workshop\_Bot\\BotsLab2\\web5.PNG](images/200/17.png)
 
 - Now, unzip the below folder and then open index.html file which is inside the html folder in any text-editor.
 
@@ -118,15 +117,15 @@ Autonomous Digital Assistant provides channels for Facebook Messenger, Web, Andr
 
 - In the index.html file change the appId like below:
 
-![D:\\Workshop\_Bot\\BotsLab2\\page1.PNG](images/200/image30.png)
+  ![D:\\Workshop\_Bot\\BotsLab2\\page1.PNG](images/200/image30.png)
 
 - Once you change the appId, save the file and open in any browser (preferred Mozilla Firefox). It will be seen as the below screen:
 
-![D:\\Workshop\_Bot\\BotsLab2\\webpage.PNG](images/200/image31.png)
+  ![D:\\Workshop\_Bot\\BotsLab2\\webpage.PNG](images/200/image31.png)
 
 - Once you click on the right-bottom corner image - ChatBot icon (marked as red in above snapshot), you can see the below screen:
 
-![D:\\Workshop\_Bot\\BotsLab2\\webpage2.PNG](images/200/image32.png)
+  ![D:\\Workshop\_Bot\\BotsLab2\\webpage2.PNG](images/200/image32.png)
 
 - Now your ChatBot is integrated with the web page. To do testing type “ShowMenu” in a message and then click on the “Send” button.
 
