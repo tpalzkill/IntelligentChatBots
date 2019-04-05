@@ -113,10 +113,8 @@ _Note: The text will disappear as it saves._
     *   **Can I get beverages.**
     *   **I want beverages**
     *   **What kind of Beverages do you have?**
-<!-- TODO: are utterances case sensitive? if not, remove #4 -->
 
 
-<a name="step-5-add-an-intent-entity-for-exit-flow"></a>
 ### **Step 5**: Add ExitFlow intent:
 
 ![](images/100/10.png)
@@ -127,7 +125,7 @@ _Note: The text will disappear as it saves._
     *   **Great**
     *   **Thank You**
     *   **Thanks**
-<!-- TODO: are utterances case sensitive? if not, remove #5 -->
+
 
 ### **Step 6**: Create Entity and Add to OrderFood Intent
 
@@ -523,10 +521,6 @@ states:
 
 - Finally, click the **Validate** button in the upper right corner and you should see a message that there were no problems found in your bot.
 
-<!-- - In the next section, you train the Bot to recognize responses that might be entered and then test it.
-
-- In this part of the tutorial, you run the training tool on the Bot. This will train the Bot allowing it to understand similar user inputs to the example utterances used when building the Bot. -->
-
 - In the upper right, click the **Train** button. This will kick-off a process that will run an algorithm to take your example utterances and build the model that will be used to ascertain the intents and entities. Anytime the ChatBot platform recognizes your Skill needs to be trained, it will display an exclamation point within the train button. Once the training is complete the exclamation point is replaced by a check mark.
 
 ![D:\\Workshop\_Bot\\Capture13.PNG](images/100/image22.png)
@@ -562,7 +556,6 @@ states:
 ![](images/100/27.png)
 
 - Now, let's try a message that includes the **ItemSize**.
-<!-- TODO: need to include the instructions for testing ItemSize -->
 
 ![](images/100/28.png)
 
@@ -582,5 +575,4 @@ states:
 
 **Note:** You can see the JSON as click option here, as the user interface component, which is provided for debugging purpose while the Bot is in testing, so that you can see the JSON response to check if it's not responding properly. Once you integrate the bot with some channel i.e. Facebook messenger, Web Page this JSON option will not appear.
 
-<!-- TODO: it would be good to add some recap text, telling the user what they have accomplished, where you can go from here, and any links to more information -->
 #### You have successfully created **Cafeteria ChatBot**. You are now ready to move to the next lab.
