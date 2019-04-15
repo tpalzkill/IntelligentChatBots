@@ -2,11 +2,11 @@ Integrating Instant App and a Web Channel in Digital Assistant Skill
 ===========================================================================
 ## Introduction
 
-Skills and bots in Oracle's Autonomous Digital Assistant provide a lot of features like Instant App, Translation Services, Bot-Agent handoff, Quality, and Channels support for the Skill like Web Channel, iOS App, Android App, Facebook Messenger, and others.
+Skills in Oracle's Autonomous Digital Assistant provide a lot of features like Instant App, Translation Services, Live-Agent handoff, Quality, and Channels support for the Skill like Web Channel, iOS App, Android App, Facebook Messenger, and others.
 
-Natural language conversations are, by their very nature, free-flowing. But they may not always be the best way for your Bot to collect information from its users. For example, some situations like entering credit card or passport details require users to enter specific and precise information. To help your Skill’s users enter this information easily, your Skill can call an Instant App, which provides forms with labels, options, choices, check boxes, data fields, and other UI elements. The CafeteriaAssistance Skill calls an Instant app for the Feedback that walks users through a series of steps to provide feedback.
+Natural language conversations are, by their very nature, free-flowing. But they may not always be the best way for your skill to collect information from its users. For example, some situations like entering credit card or passport details require users to enter specific and precise information. To help your Skill’s users enter this information easily, your Skill can call an Instant App, which provides forms with labels, options, choices, check boxes, data fields, and other UI elements. The CafeteriaAssistance_bot skill calls an Instant app for the Feedback that walks users through a series of steps to provide feedback.
 
-The CafeteriaAssistance and the Instant App show you how your Bot transitions to an Instant app, how Skills pass variable values to an Instant App, and how the Instant app returns the user to the bot.
+The CafeteriaAssistance and the Instant App show you how your skill transitions to an Instant app, how skills pass variable values to an Instant App, and how the Instant app returns the user to the assistant.
 
 
 ## Objectives
@@ -96,7 +96,7 @@ interactive:
 
 To introduce your Skill to the users of these services, you need to configure a channel.
 
-Autonomous Digital Assistant provides channels for Facebook Messenger, Web, Android and iOS messaging platforms and a generic channel called Webhook that you can use for other messaging services. Your Skills are limited to messaging services; using one of our SDKs, you can integrate the Bot in web pages.
+Autonomous Digital Assistant provides channels for Facebook Messenger, Web, Android and iOS messaging platforms and a generic channel called Webhook that you can use for other messaging services. Your Skills are limited to messaging services; using one of our SDKs, you can integrate the Digital Assistant in web pages.
 
 
 - Return to the Autonomous Digital Assistant Console. If the side menu is not open select the hamburger icon from the top right of the page, expand “Development” and select “Channels”. Ensure that “Users” is selected from the options and select “+ Channel”
@@ -123,10 +123,10 @@ Autonomous Digital Assistant provides channels for Facebook Messenger, Web, Andr
 
   ![D:\\Workshop\_Bot\\BotsLab2\\webpage.PNG](images/200/image31.png)
 
-- Once you click on the right-bottom corner image - ChatBot icon (marked as red in above snapshot), you can see the below screen:
+- Once you click on the right-bottom corner image - Digital Assistant icon (marked as red in above snapshot), you can see the below screen:
 
   ![D:\\Workshop\_Bot\\BotsLab2\\webpage2.PNG](images/200/image32.png)
 
-- Now your ChatBot is integrated with the web page. To do testing type “ShowMenu” in a message and then click on the “Send” button.
+- Now your single skill Digital Assistant is integrated with the web page. To do testing type “ShowMenu” in a message and then click on the “Send” button.
 
 **Note:** You can download all the related files from [Github](https://github.com/AdityaVishwekar/IntelligentChatBots/blob/master/workshops/intelligent-chatbots/images/All_files.zip)

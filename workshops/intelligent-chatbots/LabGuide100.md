@@ -14,16 +14,16 @@ You can build the Skill, test it, and configure it to run on different messaging
 
 ## Objectives
 
-- Create a simple Cafeteria Assistance ChatBot
+- Create a simple Cafeteria Assistance Skill
 - Create four intents
     - Create utterances
-- Add an entity and associate it with your intent for this chat bot creation.
-- Define the Conversation Flow of your bot.
+- Add an entity and associate it with your intent for this skill creation.
+- Define the Conversation Flow of your Skill.
 - Validate, train and test your Skill.
 
-## Create a ChatBot with Intents, Entities, Utterances and Flow
+## Create a Skill with Intents, Entities, Utterances and Flow
 
-### **Step 1**: Create a simple Cafeteria Assistance ChatBot
+### **Step 1**: Create a simple Cafeteria Assistance Skill
 
 - When our Digital Assistant is finished provisioning select the menu icon and select **Digital Assistant UI**.
 
@@ -535,13 +535,13 @@ _Note: The text will disappear as it saves._
         keepTurn: true
       transitions: {}
   ```
-### **Step 8**: Validate, Train and Test your ChatBot
+### **Step 8**: Validate, Train and Test your Skill
 
 - Finally, click the **Validate** button in the upper right corner.
 
   ![](images/100/LabGuide100-1bf66961.png)
 
-- You should see a message that there were no problems found in your bot before proceeding.
+- You should see a message that there were no problems found in your skill before proceeding.
 
   ![](images/100/LabGuide100-9968f951.png)
 
@@ -574,7 +574,7 @@ _Note: The text will disappear as it saves._
 
   ![](images/100/LabGuide100-9f76fbff.png)
 
-- Let's start out simple to test the bot: In the Message area, type
+- Let's start out simple to test the skill: In the Message area, type
 ```
 Show menu
 ```
@@ -582,7 +582,7 @@ and press **return**.
 
   ![](images/100/26b.png)
 
-- The bot will show cafeteria menu for you with two options. Click **Food** and the details for that item is displayed.
+- The skill will show cafeteria menu for you with two options. Click **Food** and the details for that item is displayed.
 
   ![](images/100/LabGuide100-3c6133e5.png)
 
@@ -594,11 +594,11 @@ and press **return**.
 
   ![](images/100/28.png)
 
-- Click on the **Conversation** tab to see the flow of intents the bot recognizes throughout the conversation.
+- Click on the **Conversation** tab to see the flow of intents the skill recognizes throughout the conversation.
 
   ![](images/100/29.png)
 
-- Now reset your bot by clicking the **Reset** button above the chat window.
+- Now reset your skill by clicking the **Reset** button above the chat window.
 
   ![](images/LabGuide100-d17f47ab.png)
 
@@ -610,7 +610,7 @@ and press **return**.
 
 ![](images/100/LabGuide100-cedc1773.png)
 
-- Click the **View JSON** tab. You can see the JSON as click option here, as the user interface component, which is provided for debugging purpose while the Bot is in testing, so that you can see the JSON response to check if it's not responding properly. Once you integrate the bot with some channel i.e. Facebook messenger, Web Page this JSON option will not appear.
+- Click the **View JSON** tab. You can see the JSON as click option here, as the user interface component, which is provided for debugging purpose while the skill is in testing, so that you can see the JSON response to check if it's not responding properly. Once you integrate the skill with some channel i.e. Facebook messenger, Web Page this JSON option will not appear.
 
 ![](images/100/LabGuide100-287f9002.png)
 
